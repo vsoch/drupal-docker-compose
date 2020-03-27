@@ -166,7 +166,7 @@ database dump and drupal folders added, you need to shell into
 the database container and do the import.
 
 ```bash
-docker exec -it biobank_database_1 bash
+docker exec -it drupal8_database_1 bash
 mysql -u $MYSQL_USER -p ${MYSQL_DATABASE} --password=${MYSQL_PASSWORD} < /dump.sql # >
 ```
 
